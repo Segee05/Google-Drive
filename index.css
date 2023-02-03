@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+}
+body{
+    height: 2000px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.sbw{
+    justify-content: space-between;
+}
+.navbar{
+    height: 55px;
+    box-shadow: 2px 3px 3px gainsboro;
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+}
+.nav1-links{
+    margin-left: 20px;
+}
+.nav1-links a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.nav1-img{
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 8px;
+}
+.nav1-img img{
+    width: 100%;
+}
+.nav2{
+    margin-right: 10px;
+}
+.nav2 button,
+.btn button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.more,
+.sign-in{
+    border: none;
+    background-color: #fff;
+}
+.more:hover,
+.sign-in:hover{
+    background-color: whitesmoke;
+}
+.sign-in{
+    color: #1a73e8;
+}
+.drive{
+    color: #1a73e8;
+    background-color: #fff;
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+}
+.try{
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+/* section1 */
+.section1{
+    padding-top: 150px;
+    width: 80%;
+    margin: auto;
+}
+.section1-txt{
+    width: 35%;
+}
+.section1-txt h2{
+    font-size: 50px;
+    font-weight: 300;
+    padding-bottom: 15px;
+}
+.section1-txt p{
+    font-size: 16px;
+    color: gray;
+    padding-bottom: 20px;
+}
+.btn{
+    padding-bottom: 15px;
+}
+.btn .drive{
+    margin-left: 10px;
+}
+.section1-img{
+    width: 60%;
+}
+.section1-img img{
+    width: 90%;
+}
+.sign-up{
+    padding: 10px 15px;
+    border: none;
+    background-color: #fff;
+    color: #1a73e8;
+    border-radius: 4px;
+}
+.sign-up:hover{
+    background-color: gainsboro;
+}
+.links p{
+    padding-top: 17px;
+}
+.line{
+    text-align: center;
+    color: rgb(216, 216, 216);
+    margin-top: 50px;
+}
+.button{
+    text-align: center;}
+.button button{
+    font-size: large;
+    border: none;
+    background-color: white;
+}
+.button :hover{
+    background-color: gainsboro;
+}    
+.built{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.built1{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.built3{
+    font-size: 16px;
+    color: gray;
+}
+.built2{
+    margin-top: 20px;
+}
+.apps{
+    height: 700px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.apps .app1{
+    height: 600px;
+    width: 45;
+}
+.apps2{
+height: 600px;
+width: 45%;
+}
+
+.apps2 img{
+    width: 100%;
+}
+.apps3{
+    font-size: 50px;
+    margin-top: 70px;
+}
+.tools{
+    height: 700px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.tools1{
+    height: 600px;
+    width: 45%;
+}
+.tools1 img{
+   width: 100%; 
+}
+.tools2{
+    font-size: 50px;
+    margin-top: 50px;
+}
+.help{
+     height: 700px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.help2{
+    height: 600px;
+    width: 45%;
+}
+.help2 img{
+     width: 100%; 
+}
+.help3{
+   font-size: 50px;
+    margin-top: 50px; 
+}
+.team{
+    background-color: rgb(248, 248, 248);
+    height: 650px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+.team2{
+    text-align: center;
+    margin-top: 20px;
+}
+.team3{
+    background-color: white;
+    width: 95;
+    height: 400px;
+    box-shadow: 1px 2px 2px ;
+}
+.team4{
+    text-align: center;
+}
+.team5{
+    font-size: 40px;
+}
+.team4 img{
+    height: 150px;
+}
+/* .team6{
+    font-size: 20px;
+    margin-top: 29px;
+} */
+.team7 img{
+   padding-left: 40px;
+   margin-top: 30px;
+}
+.text1{
+    margin-top: 100px;
+   
+}
+.integ{
+    text-align: center;
+    margin-top: 30px;
+}
+.abobe{
+ display: flex;
+ align-items: center;
+ margin-top: 30px;
+ margin-left: 20px;
+}
+.abobe img:hover{
+    background-color: gainsboro ;
+}
+.plan{
+    text-align: center;
+    margin-top: 30px;
+}
+.svg{
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 300px;
+    
+}
+.svg img{
+    text-align: center;
+    padding-left: 30px;
+}
+.svg text{
+    font-size: small;
+    margin-left: 50px;
+}
+.table{
+    margin-top: 30px;
+    text-align: center;
+}
